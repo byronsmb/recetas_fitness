@@ -117,7 +117,7 @@ class _RecipeCardState extends State<RecipeCard> {
                       widget.recetaModel.title,
                       style: Theme.of(context).textTheme.titleMedium,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 8,
                     ),
                     Text(
