@@ -93,16 +93,14 @@ class _RecipeCardState extends State<RecipeCard> {
                 },
                 child: Icon(
                   saved ? Icons.bookmark : Icons.bookmark_border,
-                  color: Color.fromARGB(255, 74, 228, 36),
+                  color: const Color.fromARGB(255, 74, 228, 36),
                   size: 38,
                 ),
               ),
             ),
           ],
         ),
-        SizedBox(
-          height: 20,
-        ),
+        const SizedBox(height: 20),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 24.0),
           child: Row(
